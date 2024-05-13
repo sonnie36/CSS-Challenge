@@ -99,42 +99,11 @@ body{
     width:70px;
     height: 60px;
 }
-#bd{
-    height: 100vh; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;    
-    margin-bottom: 30px;                     
-}
-.content1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    margin-top: 10%;
-    position: absolute;
-    width: 100%;
-    padding: 100px 20px;
-}
-.peace{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap:10px;
-    width:300px;
-    /* box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); */
-    h5{
-        margin-bottom: 10px;
-    }
-}
 .floatTop{
     width: 100%;
     height:auto;
     position:absolute;
-    top: 85%;
+    top: 80%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -152,23 +121,43 @@ body{
     padding: 30px;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
 }
-
-/* .card{
-    width:250px;
-    padding:15px;
+#bd{
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    margin-bottom: 30px;                     
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 10%;
+    padding: 100px 20px;
+}
+.peace{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
-} */
+    gap:10px;
+    width:300px;
+    /* box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); */
+    h5{
+        margin-bottom: 10px;
+    }
+}
+
 #industry{
     display: flex;
     width: 100%;
     flex-direction: column;
     text-align: center;
-    /* height: 100vh; */
     padding-top: 80px;
-    padding-bottom: 150px;
-    position: absolute;
-    margin-top: 35%;
+    padding-bottom: 120px;
 }
 #industry .desc{
     margin-top: 30px;
@@ -204,11 +193,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 19%;
-    max-width: 800px;
-    /* width:60%; */
-    margin-bottom: 30px;
-    margin-top: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 40px;;
     
 }
 .images{
@@ -216,13 +203,13 @@ body{
     height: 37px;
 }
 .gradient{
-    width:60%;
+    width:66%;
     display: flex;
-    left: 19%;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
     padding:20px;
+    margin: 0 auto;
+    margin-bottom: 70px;
     background: linear-gradient(to right, purple,rgb(245, 8, 174)
     )
 }
@@ -250,4 +237,83 @@ body{
 }
 .gradient > p{
     color: white;
+}
+#pricing{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+#pricing > h1{
+    margin-bottom: 10px;
+}
+#pricing > p{
+    margin-bottom: 20px;
+}
+.priceContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.free, .standard ,.premium{
+    max-width: 28%;
+    border:1px solid  rgb(60, 199, 241) ;
+    border-radius: 10px;
+    padding: 20px;
+    h2{
+        margin-bottom: 20px;
+    }
+}
+.standard{
+    background-color: rgb(2, 9, 49);
+    color:white;
+
+}
+.organize{
+    margin-bottom: 20px;
+}
+.price{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(60, 199, 241);
+}
+.amount{
+    font-size: 23px;
+    font-weight: bold;
+}
+.dollar{
+    font-size: 15px;
+}
+.tick{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:5px;
+    margin:0 auto;
+    padding: 10px;
+}
+.tick p{
+    font-size: 12px;
+}
+.green{
+    color: rgb(62, 163, 37);
+}
+.gray{
+    color: rgb(150, 150, 150);
+}
+.cardBtn{
+    padding:10px;
+    width:80%;
+    border:none;
+    outline: none;
+    border-radius:5px;
+    background-color: rgb(10, 134, 179);
+    color:white;
+    margin-bottom:30px;
 }
