@@ -317,3 +317,77 @@ body{
     color:white;
     margin-bottom:30px;
 }
+#branches{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 7, 37);
+    color:white;
+    height: 80vh;
+}
+.upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 30px;
+}
+#branches .branchContent{
+    max-width: 30%;
+    margin-right: 50px;
+    p{
+        font-size: 15px;
+    }
+}
+
+.map img{
+    width:250px;
+    height: 150px;
+}
+.appointment{
+    max-width: 500px;
+    display: flex;
+    background-color: white;
+    /* position: absolute;
+    margin-top:25% ; */
+    
+}
+.fam{
+    width:30%;
+}
+.fam > img{
+    width:100%;  
+}
+.details{
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    height:80vh;
+    flex-direction: column;
+    gap:50px;
+}
+.footerContent{
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+.contact{
+    width:150px;
+    border: none;
+    border-radius:5px;
+    color: white;
+    background-color: rgb(60, 199, 241); 
+}
+.footerLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+ul li{
+    list-style: none;
+    font-size: 10px;
+    color: rgb(150, 150, 150);
+}
